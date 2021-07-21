@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.header {
+    background-image: url(/img/programacao.jpg);
+    background-size: cover;
+    color:  whitesmoke;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.navbar {
+    width: 20%;
+    padding: 30px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.content {
+    width: 80%;
+    height: 60vh;
+    background: #81477d;
+    box-shadow: 2px 2px 10px #af65a9;
+    padding: 30px 30px;
+    border-radius: 40px 0;
+    margin: 20px 20px 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: auto;
+    background-color: rgb(231, 231, 231);
+    color: rgb(109, 86, 211);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+
+ .navbar ul li {
+     background-color: #81477d;
+     color: rgb(5, 5, 5);
+     margin-bottom: 5px;
+     border-radius: 10px 0px;
+     text-align: center;
+     padding: 10px;
+ }
+
+ .navbar ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, p {
+    margin-bottom: 15px;
+}
